@@ -1,4 +1,4 @@
-<h2><a href="https://practice.geeksforgeeks.org/problems/find-number-of-numbers/1?page=6&difficulty[]=-1&status[]=unsolved&sortBy=submissions">Find Number of Numbers</a></h2><h3>Difficulty Level : Basic</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given an array A[] &nbsp;of n elements. Your task is to complete the Function <strong>num </strong>which returns an integer denoting<strong>&nbsp;</strong>the total number of times digit k appears&nbsp;in the whole array.</span></p>
+<h2><a href="https://practice.geeksforgeeks.org/problems/find-number-of-numbers/1?page=2&difficulty[]=-1&status[]=solved&sortBy=latest">Find Number of Numbers</a></h2><h3>Difficulty Level : Basic</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given an array A[] &nbsp;of n elements. Your task is to complete the Function <strong>num </strong>which returns an integer denoting<strong>&nbsp;</strong>the total number of times digit k appears&nbsp;in the whole array.</span></p>
 
 <p><span style="font-size:18px"><strong>For Example:</strong></span></p>
 
