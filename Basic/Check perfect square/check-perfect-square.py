@@ -1,12 +1,10 @@
 #User function Template for python3
-
-#User function Template for python3
 import math
 class Solution:
-    def isPerfectSquare (self, n):
-        k = math.sqrt(n)
-        a = math.ceil(k)
-        b = math.floor(k)
+    def checkPerfectSquare (ob,N):
+        k = math.sqrt(N)
+        a = math.floor(k)
+        b = math.ceil(k)
         if a == b:
             return 1
         else:
@@ -19,8 +17,9 @@ class Solution:
 if __name__ == '__main__': 
     t = int (input ())
     for _ in range (t):
-        n = int(input())
         
+        N=int(input())
+
         ob = Solution()
-        print(ob.isPerfectSquare(n))
+        print(ob.checkPerfectSquare(N))
 # } Driver Code Ends
