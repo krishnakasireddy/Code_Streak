@@ -1,5 +1,6 @@
 #User function Template for python3
 
+
 class Solution:
     def findIndex (self,a, N, key ):
         start,end = -1,-1
@@ -13,6 +14,7 @@ class Solution:
                 break
         return start,end
             
+
 
 
 #{ 
