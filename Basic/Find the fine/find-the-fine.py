@@ -5,16 +5,19 @@ class Solution:
         #Code here
         odd_collect,even_collect = 0,0
         for i in range (n):
-                if car[i]%2 == 0:
-                   odd_collect+=fine[i]
-                if car[i]%2 != 0:
-                    even_collect+=fine[i]
+            if car[i]%2 == 0:
+                odd_collect+=fine[i]
+            if car[i]%2 != 0:
+                even_collect+=fine[i]
         if date%2 == 0:
             return even_collect
         else:
             return odd_collect
     
     
+
+
+
 
 
 #{ 
