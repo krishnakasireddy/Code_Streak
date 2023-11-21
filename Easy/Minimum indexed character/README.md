@@ -1,22 +1,28 @@
-<h2><a href="https://practice.geeksforgeeks.org/problems/minimum-indexed-character-1587115620/1?page=6&difficulty[]=0&status[]=unsolved&sortBy=submissions">Minimum indexed character</a></h2><h3>Difficulty Level : Easy</h3><hr><div class="problems_problem_content__Xm_eO" bis_skin_checked="1"><p><span style="font-size: 18px;">Given a string&nbsp;<strong>str</strong>&nbsp;and another string&nbsp;<strong>patt</strong>. Find the minimum index of the character in <strong>str&nbsp;</strong>that is also present in&nbsp;<strong>patt</strong>.</span></p>
-<p><br><span style="font-size: 18px;"><strong>Example 1:</strong></span></p>
-<pre><span style="font-size: 18px;"><strong>Input:
-</strong>str = geeksforgeeks
-patt = set
-<strong>Output: </strong>1<strong>
-Explanation: </strong>e is the character which is
-present in given str "geeksforgeeks"
-and is also present in patt "set". Minimum
-index of e is 1. </span>
+<h2><a href="https://www.geeksforgeeks.org/problems/minimum-indexed-character0221/1?page=2&category=Strings&difficulty=Easy&status=unsolved&sortBy=submissions">Minimum indexed character</a></h2><h3>Difficulty Level : Easy</h3><hr><div class="problems_problem_content__Xm_eO" bis_skin_checked="1"><p><span style="font-size:18px">Given a string <strong>S</strong>&nbsp;and another string&nbsp;<strong>patt</strong>. Find the character in&nbsp;<strong>patt</strong>&nbsp;that is present at the minimum index in <strong>S</strong>.</span><br>
+&nbsp;</p>
+
+<p><span style="font-size:18px"><strong>Example 1:</strong></span></p>
+
+<pre><span style="font-size:18px"><strong>Input: </strong>S = "zsyle", patt = "bjz"
+<strong>Output: </strong>"z"</span>
 </pre>
-<p><span style="font-size: 18px;"><strong>Example 2:</strong></span></p>
-<pre><span style="font-size: 18px;"><strong>Input:
-</strong>str = adcffaet
-patt = onkl
-<strong>Output: </strong>-1<strong>
-Explanation: </strong>There are none of the
-characters which is common in patt
-and str.</span></pre>
-<p><br><span style="font-size: 18px;"><strong>Your Task:</strong><br>You only need to complete the function <strong>minIndexChar()&nbsp;</strong>that returns&nbsp;the index of answer in str or returns -1&nbsp;in case no character of patt is present in str.</span></p>
-<p><br><span style="font-size: 18px;"><strong>Expected Time Complexity:&nbsp;</strong>O(N).<br><strong>Expected Auxiliary Space:&nbsp;</strong>O(Number of distinct characters).</span></p>
-<p><br><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 ≤ |str|,|patt|&nbsp;≤ 10<sup>5&nbsp;</sup><br>'a' &lt;= str<sub>i</sub>, patt<sub>i</sub>&nbsp;&lt;= 'z'</span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Ola Cabs</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Hash</code>&nbsp;<code>Strings</code>&nbsp;<code>STL</code>&nbsp;<code>Data Structures</code>&nbsp;
+
+<p><span style="font-size:18px"><strong>Example 2:</strong></span></p>
+
+<pre><span style="font-size:18px"><strong>Input: </strong>S = "anskg", patt = "me"
+<strong>Output: </strong>"$"</span>
+</pre>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:18px"><strong>Your Task:</strong><br>
+You don't need to read or print anything. Your task is to complete the function&nbsp;<strong>printMinIndexChar()&nbsp;</strong>which takes <strong>S</strong>&nbsp;and <strong>patt&nbsp;</strong>as input parameter and returns the character in<strong> patt&nbsp;</strong>that is present at the minimum index in <strong>S</strong>. If not possible returns "$".</span><br>
+&nbsp;</p>
+
+<p><span style="font-size:18px"><strong>Expected Time Complexity:&nbsp;</strong>O(max(|str|, |patt|))<br>
+<strong>Expected Auxilary Space:&nbsp;</strong>O(K) where K &lt;= 26</span><br>
+&nbsp;</p>
+
+<p><span style="font-size:18px"><strong>Constraints:</strong><br>
+1 ≤ |S|, |patt| ≤ 10<sup>4</sup></span></p>
+</div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Ola Cabs</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Hash</code>&nbsp;<code>Strings</code>&nbsp;<code>STL</code>&nbsp;<code>Data Structures</code>&nbsp;
